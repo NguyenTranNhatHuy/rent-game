@@ -20,23 +20,28 @@ export default function SearchProduct() {
     keyword: "",
     sortType: "",
   });
-  const pageSize = 4;
+  // const pageSize = 4;
 
   useEffect(() => {
     fetchData();
+  }, [currentPage, filters, fetchData]);
+
+  useEffect(() => {
+    const fetchData = () => {
+      setSearching(true);
+      const timer = setTimeout(() => {
+        fetchGames();
+        fetchCategories();
+        fetchPlatforms();
+        fetchKeywords();
+        setSearching(false);
+      }, 1000);
+      return () => clearTimeout(timer);
+    };
+
+    fetchData();
   }, [currentPage, filters]);
 
-  const fetchData = () => {
-    setSearching(true);
-    const timer = setTimeout(() => {
-      fetchGames();
-      fetchCategories();
-      fetchPlatforms();
-      fetchKeywords();
-      setSearching(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  };
 
   const fetchGames = () => {
     const apiUrl = "http://localhost:8080/rent-game/games/search";
@@ -333,9 +338,8 @@ export default function SearchProduct() {
                 </div>
               </div>
               <div
-                className={`row justify-content-${
-                  games.length < 4 ? "center" : "between"
-                } align-items-center g-6`}
+                className={`row justify-content-${games.length < 4 ? "center" : "between"
+                  } align-items-center g-6`}
               >
                 {games.length > 0 ? (
                   games.map((game) => (

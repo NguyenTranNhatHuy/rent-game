@@ -36,10 +36,10 @@ export function LoginComponent() {
   // Removed token and userName states as they are not used
 
   // Use the react-cookie hook to access and set cookies
-  const [cookies, setCookie, removeCookie] = useCookies([
-    "username",
-    "password",
-  ]);
+  // const [cookies, setCookie] = useCookies([
+  //   "username",
+  //   "password",
+  // ]);
 
   useEffect(() => {
     const registerButton = document.getElementById("register");
@@ -144,14 +144,14 @@ export function LoginComponent() {
             ? ""
             : "Invalid email address"
           : name === "password"
-          ? /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,16}$/.test(value)
-            ? ""
-            : "Password must be 8 to 16 characters with at least one uppercase letter"
-          : name === "username"
-          ? /^[a-zA-Z0-9]{8,16}$/.test(value)
-            ? ""
-            : "Username must be between 8 and 16 characters"
-          : prevErrors[name],
+            ? /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,16}$/.test(value)
+              ? ""
+              : "Password must be 8 to 16 characters with at least one uppercase letter"
+            : name === "username"
+              ? /^[a-zA-Z0-9]{8,16}$/.test(value)
+                ? ""
+                : "Username must be between 8 and 16 characters"
+              : prevErrors[name],
     }));
   };
 

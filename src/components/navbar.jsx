@@ -10,7 +10,7 @@ import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [username, setUsername] = useState(null);
+  // const [username, setUsername] = useState(null);
   const [account, setAccount] = useState({});
   const history = useHistory();
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     localStorage.removeItem("id");
     localStorage.removeItem("accountId");
     setIsLoggedIn(false);
-    setUsername(null);
+    // setUsername(null);
     window.location.reload();
     window.location.href = "/home";
   };

@@ -8,7 +8,7 @@ import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
 export default function Register() {
   const history = useHistory();
-  const { setAccountId, setToken } = useContext(AuthContext);
+  // const { setAccountId, setToken } = useContext(AuthContext);
   const [error, setError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -19,11 +19,11 @@ export default function Register() {
     password: "",
   });
 
-  const [loginFormData, setLoginFormData] = useState({
-    username: "",
-    password: "",
-    rememberMe: false,
-  });
+  // const [loginFormData, setLoginFormData] = useState({
+  //   username: "",
+  //   password: "",
+  //   rememberMe: false,
+  // });
 
   const [errors, setErrors] = useState({
     mail: "",
@@ -31,10 +31,10 @@ export default function Register() {
     username: "",
   });
 
-  const [cookies, setCookie, removeCookie] = useCookies([
-    "username",
-    "password",
-  ]);
+  // const [cookies, setCookie, removeCookie] = useCookies([
+  //   "username",
+  //   "password",
+  // ]);
 
   const handleSignupChange = (e) => {
     const { name, value } = e.target;
@@ -51,14 +51,14 @@ export default function Register() {
             ? ""
             : "Invalid email address"
           : name === "password"
-          ? /^.{8,16}$/.test(value)
-            ? ""
-            : "Password must be between 8 and 16 characters"
-          : name === "username"
-          ? /^[a-zA-Z0-9]{8,16}$/.test(value)
-            ? ""
-            : "Username must be between 8 and 16 characters"
-          : prevErrors[name],
+            ? /^.{8,16}$/.test(value)
+              ? ""
+              : "Password must be between 8 and 16 characters"
+            : name === "username"
+              ? /^[a-zA-Z0-9]{8,16}$/.test(value)
+                ? ""
+                : "Username must be between 8 and 16 characters"
+              : prevErrors[name],
     }));
   };
 
