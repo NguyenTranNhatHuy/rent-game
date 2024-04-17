@@ -22,9 +22,9 @@ export default function SearchProduct() {
   });
   // const pageSize = 4;
 
-  useEffect(() => {
-    fetchData();
-  }, [currentPage, filters, fetchData]);
+  // useEffect(() => {
+  //   fetchData();
+  // }, [currentPage, filters, fetchData]);
 
   useEffect(() => {
     const fetchData = () => {
