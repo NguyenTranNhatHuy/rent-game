@@ -1,7 +1,7 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom/cjs/react-router-dom";
-import { AuthContext } from "../context/authContext";
-import { useCookies } from "react-cookie";
+// import { AuthContext } from "../context/authContext";
+// import { useCookies } from "react-cookie";
 import { toast } from "react-toastify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
