@@ -4,7 +4,7 @@ export default function Notification() {
     return (
         <div className="notification-area p-4" data-lenis-prevent="">
             <div className="notification-card d-grid gap-4" data-tilt="">
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-img-area">
                             <img
@@ -21,7 +21,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-img-area">
                             <img
@@ -38,7 +38,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-info">
                             <span className="card-title d-block tcn-1"> Copa Punto Gamer </span>
@@ -48,7 +48,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-info">
                             <span className="card-title d-block tcn-1"> Daily Bonus </span>
@@ -58,7 +58,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-img-area">
                             <img
@@ -75,7 +75,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-img-area">
                             <img
@@ -92,7 +92,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-info">
                             <span className="card-title d-block tcn-1"> Copa Punto Gamer </span>
@@ -102,7 +102,7 @@ export default function Notification() {
                         </div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="">
                     <div className="card-item d-flex align-items-center gap-4">
                         <div className="card-info">
                             <span className="card-title d-block tcn-1"> Daily Bonus </span>

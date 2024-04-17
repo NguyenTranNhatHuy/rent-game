@@ -15,7 +15,7 @@ export default function CallToAction() {
                         </span>
                     </div>
                     <div className="col-xl-5 col-lg-6">
-                        <form action="#">
+                        <form action="">
                             <div className="single-input mb-6">
                                 <input type="email" placeholder="Enter your email" />
                             </div>
@@ -27,7 +27,7 @@ export default function CallToAction() {
                                     </label>
                                     <span className="fs-base tcn-6">
                                         I agree with{" "}
-                                        <a href="#" className="tcp-1">
+                                        <a href="" className="tcp-1">
                                             Privacy Policy
                                         </a>
                                         and{" "}

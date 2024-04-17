@@ -15,7 +15,7 @@ export default function ConnectWallet() {
                     <div className="wallet-option pb-20">
                         <ul className="d-grid gap-sm-8 gap-4">
                             <li className="wallet-item p-sm-6 p-2 bgn-3 rounded-4">
-                                <a href="#" className="d-between">
+                                <a href="" className="d-between">
                                     <span>Connect with Metamask</span>
                                     <div className="wallet-item-thumb">
                                         <img
@@ -27,7 +27,7 @@ export default function ConnectWallet() {
                                 </a>
                             </li>
                             <li className="wallet-item p-sm-6 p-2 bgn-3 rounded-4">
-                                <a href="#" className="d-between">
+                                <a href="" className="d-between">
                                     <span>Connect with Wallet Connect </span>
                                     <div className="wallet-item-thumb">
                                         <img
