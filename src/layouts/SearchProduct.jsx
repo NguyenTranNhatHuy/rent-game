@@ -270,7 +270,7 @@ export default function SearchProduct() {
                       className="btn btn-primary search-btn"
                       onClick={() => {
                         setCurrentPage(0);
-                        fetchData();
+                        // fetchData();
                       }}
                       disabled={searching}
                     >
