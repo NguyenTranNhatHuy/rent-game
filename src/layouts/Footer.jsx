@@ -11,7 +11,7 @@ export default function Footer() {
                         <div className="col-lg-3 col-sm-6 br py-lg-20 pt-sm-15 pt-10 footer-card-area">
                             <div className="py-lg-10">
                                 <div className="footer-logo mb-8">
-                                    <a href="" className="d-grid gap-6">
+                                    <a href="/" className="d-grid gap-6">
                                         <div className="flogo-1">
                                             <img
                                                 className="w-100"
@@ -27,27 +27,27 @@ export default function Footer() {
                                 <div className="social-links">
                                     <ul className="d-flex align-items-center gap-3 flex-wrap">
                                         <li>
-                                            <a href="">
+                                            <a href="/">
                                                 <i className="ti ti-brand-facebook fs-2xl" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="/">
                                                 <i className="ti ti-brand-twitter fs-2xl" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="/">
                                                 <i className="ti ti-brand-youtube fs-2xl" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="/">
                                                 <i className="ti ti-brand-linkedin fs-2xl" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="/">
                                                 <i className="ti ti-brand-instagram fs-2xl" />
                                             </a>
                                         </li>
@@ -103,7 +103,7 @@ export default function Footer() {
                                 <ul className="footer-list d-grid gap-4">
                                     <li>
                                         <a
-                                            href=""
+                                            href="/"
                                             className="footer-link d-flex align-items-center tcn-6"
                                         >
                                             {" "}
@@ -137,7 +137,7 @@ export default function Footer() {
                                 <ul className="footer-list d-grid gap-4">
                                     <li>
                                         <a
-                                            href=""
+                                            href="/"
                                             className="footer-link d-flex align-items-center tcn-6"
                                         >
                                             {" "}
@@ -146,7 +146,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <a
-                                            href=""
+                                            href="/"
                                             className="footer-link d-flex align-items-center tcn-6"
                                         >
                                             {" "}
@@ -155,7 +155,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <a
-                                            href=""
+                                            href="/"
                                             className="footer-link d-flex align-items-center tcn-6"
                                         >
                                             {" "}
@@ -164,7 +164,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <a
-                                            href=""
+                                            href="/"
                                             className="footer-link d-flex align-items-center tcn-6"
                                         >
                                             {" "}
@@ -190,7 +190,7 @@ export default function Footer() {
                                     <a href="terms-condition.html">Terms &amp; Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="">Privacy Policy</a>
+                                    <a href="/">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>

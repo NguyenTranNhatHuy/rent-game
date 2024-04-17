@@ -27,11 +27,11 @@ export default function CallToAction() {
                                     </label>
                                     <span className="fs-base tcn-6">
                                         I agree with{" "}
-                                        <a href="" className="tcp-1">
+                                        <a href="/privacy-policy" className="tcp-1">
                                             Privacy Policy
                                         </a>
                                         and{" "}
-                                        <a href="terms-condition.html" className="tcp-1">
+                                        <a href="/terms-and-conditions" className="tcp-1">
                                             Terms &amp; Conditions
                                         </a>
                                     </span>
